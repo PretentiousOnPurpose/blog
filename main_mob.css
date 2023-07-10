@@ -1,0 +1,225 @@
+body, html, div, header, footer, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /* border-bottom: 10px solid rgb(24, 149, 232); */
+    border-bottom: 10px solid black;
+}
+
+#webTitle {
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Permanent Marker', sans-serif; */
+    font-family: 'Pangolin', sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    padding-left: 7px;
+    /* color: rgb(24, 138, 232); */
+    color: black;
+}
+
+header a {
+    font-family: 'Shadows Into Light', sans-serif;
+    /* font-family: 'Pangolin', sans-serif; */
+    /* font-family: Ral; */
+    color: black;
+    font-size: large;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+#intro {
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 10px;
+    /* border: 0.2px solid gray; */
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+
+
+#posts {
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    /* border: 0.2px solid gray; */
+    /* border-radius: 5px; */
+    padding-top: 5px;
+}
+
+#searchPosts {
+    width: 90%;
+    padding-left: 5vw;
+    margin-top: 10px;
+    /* border-radius: 3px; */
+    font-family: 'Outfit', sans-serif;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+}
+
+.pHeading {
+    /* font-family: 'Outfit', sans-serif; */
+    font-family: 'Amatic SC', cursive;
+    /* margin-left: 15px; */
+    width: 100%;
+    font-size: xx-large;
+    padding-left: 10px;
+    font-weight: bold;
+    border-bottom: 5px solid black;
+    text-align: left;
+}
+.pHeading {
+    /* font-family: 'Outfit', sans-serif; */
+    font-family: 'Amatic SC', cursive;
+    /* margin-left: 15px; */
+    width: 100%;
+    font-size: xx-large;
+    padding-left: 10px;
+    font-weight: bold;
+    border-bottom: 5px solid black;
+    text-align: left;
+}
+#quotes {
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: left;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid black;
+    width: 100%;
+}
+
+.quoteText {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    /* font-style: italic; */
+    font-size: medium;
+    text-align: justify;
+    font-weight: 400;
+    text-justify: inter-word;
+}
+
+.quoteAuthor {
+    font-family: 'Outfit', sans-serif;
+    font-size: small;
+    text-align: right;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+#articles {
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.postShort {
+    width: 98%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: left;
+    border-radius: 3px;
+    border: 3px solid black;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 10px;
+}
+.postShortTitle {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    border-bottom: 3px solid black;
+    padding-left: 3px; 
+    padding-right: 3px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.postShortContent {
+    font-family: 'Outfit', sans-serif;
+    /* border-bottom: 3px solid black; */
+    padding-left: 5px; 
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* border-bottom: 2px solid black; */
+}
+
+.postShortReadMore {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    padding-left: 5px; 
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid black;
+    color: black;
+}
+
+.postKeywords {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+.keyword {
+    font-style: italic;
+    font-family: 'Outfit', sans-serif;
+    padding: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: small;
+}
+
+footer {
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 10px;
+    color: gray;
+    font-size: smaller;
+}
+
+
+.quoteContent {
+    font-weight: 600;
+    font-style: italic;
+}
